@@ -1,8 +1,14 @@
-title: Reading Log
-description: 记录我的科研文献阅读与思考
+title: Research Notes
+description: Notes and insights on diffusion models, artificial intelligence, and data visualization
 theme: just-the-docs
 
 url: https://hliang-t.github.io
 
 aux_links:
   Github: https://github.com/HLiang-T/hliang-t.github.io
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
