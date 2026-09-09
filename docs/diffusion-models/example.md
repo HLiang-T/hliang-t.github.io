@@ -1,7 +1,7 @@
 ---
 title: "论文完整标题"
 nav_order: 1
-parent: 扩散模型
+parent: diffusion-models
 ---
 
 # 📄 论文完整标题
