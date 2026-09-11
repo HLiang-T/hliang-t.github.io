@@ -1,0 +1,16 @@
+// Keep long sidebar titles on one line and truncate them with an ellipsis.
+// The theme's existing right padding leaves room for the expand/collapse icon.
+.nav-list .nav-list-link {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// Replace the browser's heavy black focus outline on the search field with a
+// softer theme-colored focus indicator.
+.search-input:focus,
+.search-input:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(114, 83, 237, 0.18);
+}
